@@ -22,4 +22,4 @@ jobs:
       run: nuget restore GitHubProject.sln
       
     - name: Build the solution
-      run: msbuild GitHubProject.sln
+      run: msbuild GitHubProject.sln /p:Configuration=Release
