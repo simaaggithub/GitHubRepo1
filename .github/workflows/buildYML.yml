@@ -24,5 +24,4 @@ jobs:
     - name: Build the solution
       run: msbuild GitHubProject.sln /p:Configuration=Release
       
-    - name: dotnet publish
-      run: dotnet publish -c Release -o dotnetwebapp
+    
